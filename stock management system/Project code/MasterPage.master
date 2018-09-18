@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    <link href="mainCss.css" rel="Stylesheet" runat="server" type="text/css" />
+     <link id="Link1" href="login.css" runat="server" rel="Stylesheet" type="text/css" />
+    </asp:ContentPlaceHolder>
+</head>
+<body background="images/pattern.png">
+    <form id="form1" runat="server">
+<center>
+    <div class="banner" 
+        style="background-image: url('/C:/Users/Ajeet Raj/Desktop/OSMS/images/pattern.png')">
+    <img src="images/5346465_300.png" width="100px" height="100%" />
+    <img src="images/HEAD.png" width="80%" height="100%" /><br />
+        <a href= "Dashboard.aspx" class="strip" 
+            
+            style="line-height: normal; background-color:red; display: inline-block; color: #FFFFFF; font-weight: bold; font-size: medium; width: 107px;" >Dashboard</a>&nbsp |&nbsp 
+        <a href="Sell_BIl.aspx"  class="topHeader" style="text-decoration: none">Bill</a>&nbsp |&nbsp<a 
+            href="Ad_item.aspx"  class="topHeader" style="text-decoration: none">Item Panel</a> &nbsp |&nbsp<a 
+            href="In_stock.aspx" class="topHeader" style="text-decoration: none">Stock</a>&nbsp |&nbsp<a 
+            href="Ad_supplier.aspx" class="topHeader" class="strip" 
+            style="text-decoration: none">Contact book</a>&nbsp  |&nbsp<a 
+            href= "logout.aspx" class="topHeader" class="strip" 
+            style="text-decoration: none">logout</a>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+         
+        <br />
+&nbsp;<asp:Label ID="Label2" runat="server"  Text="all Rights reserved @2018"  Font-Bold="True" Font-Names="Agency FB" Font-Size="Large" ForeColor="White" ></asp:Label>
+        <br />
+  </div>
+    </center>
+        
+    </form>
+    </body>
+</html>

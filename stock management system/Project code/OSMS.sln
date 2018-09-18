@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OSMS", ".", "{9657AD7D-1B00-40D0-B345-7F4FBCB2366F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/OSMS"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\OSMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OSMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OSMS"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\OSMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OSMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49408"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9657AD7D-1B00-40D0-B345-7F4FBCB2366F}.Debug|.NET.ActiveCfg = Debug|.NET
+		{9657AD7D-1B00-40D0-B345-7F4FBCB2366F}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
